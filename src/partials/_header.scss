@@ -1,0 +1,24 @@
+
+header {
+  background-color: $backgroundColor;
+  height: 90px;
+  width: 100%;
+
+
+  #header-top {
+    ul#nav-action{
+      &::after{
+        @include clearfix;
+      }
+     li{
+      display: inline-block;
+      text-decoration: none;
+         a{
+        text-decoration: none;
+        color:#9d9d9d;
+        }
+      }
+    }
+  }
+
+}
