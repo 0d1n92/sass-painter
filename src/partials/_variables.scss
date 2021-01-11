@@ -6,3 +6,7 @@ $jumbothronImg: "https://www.painterartist.com/static/ptr/product_content/painte
   display: table;
   clear: both;
 }
+@mixin inlineList {
+  list-style: none;
+  display: inline-block;
+}

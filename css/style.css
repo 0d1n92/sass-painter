@@ -44,10 +44,14 @@ header #header-top ul#nav-action {
   float: right;
 }
 header #header-top ul#nav-action li {
+  list-style: none;
   display: inline-block;
-  text-decoration: none;
 }
 header #header-top ul#nav-action li a {
   text-decoration: none;
   color: #9d9d9d;
+}
+header #header-bottom ul#section_site li {
+  list-style: none;
+  display: inline-block;
 }

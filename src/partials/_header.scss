@@ -6,19 +6,25 @@ header {
 
 
   #header-top {
-    &::after{
+    &::after {
       @include clearfix;
     }
-    ul#nav-action{
+    ul#nav-action {
       float: right;
      li{
-      display: inline-block;
-      text-decoration: none;
+        @include inlineList;
 
-         a{
+         a {
         text-decoration: none;
         color:#9d9d9d;
         }
+      }
+    }
+  }
+  #header-bottom {
+    ul#section_site {
+      li {
+      @include inlineList;
       }
     }
   }
