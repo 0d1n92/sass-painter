@@ -35,10 +35,13 @@ header {
   height: 90px;
   width: 100%;
 }
-header #header-top ul#nav-action::after {
+header #header-top::after {
   content: "";
   display: table;
   clear: both;
+}
+header #header-top ul#nav-action {
+  float: right;
 }
 header #header-top ul#nav-action li {
   display: inline-block;

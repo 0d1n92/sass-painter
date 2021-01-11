@@ -6,13 +6,15 @@ header {
 
 
   #header-top {
+    &::after{
+      @include clearfix;
+    }
     ul#nav-action{
-      &::after{
-        @include clearfix;
-      }
+      float: right;
      li{
       display: inline-block;
       text-decoration: none;
+
          a{
         text-decoration: none;
         color:#9d9d9d;
